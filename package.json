@@ -4,7 +4,7 @@
   "description": "Conversor javascript de tipos",
   "main": "assets/js/conversor.js",
   "scripts": {
-    "test": "./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
+    "test": "karma start",
     "chai": "curl https://raw.githubusercontent.com/chaijs/chai/master/chai.js -o test/chai.js"
   },
   "repository": {
@@ -34,7 +34,7 @@
     "gulp-uglify": "^1.5.3",
     "gulp-util": "^3.0.7",
     "jasmine-core": "^2.4.1",
-    "karma": "*",
+    "karma": "^0.13.22",
     "karma-chai": "^0.1.0",
     "karma-chai-plugins": "*",
     "karma-chrome-launcher": "*",
